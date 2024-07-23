@@ -41,7 +41,7 @@ const Index = () => {
                     <p className="text-sm md:text-lg">저희가 제공하는 놀라운 기능들을 발견하고 오늘부터 여정을 시작하세요!</p>
                 </div>
                 <div className="text-center">
-                    <a href="#learn-more" className="border-2 border-white text-white py-2 px-6 rounded-lg bg-transparent hover:bg-white hover:text-black transition duration-300">
+                    <a href="/main" className="border-2 border-white text-white py-2 px-6 rounded-lg bg-transparent hover:bg-white hover:text-black transition duration-300">
                         자세히 보기
                     </a>
                 </div>
