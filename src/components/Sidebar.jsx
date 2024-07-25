@@ -5,33 +5,22 @@ const Sidebar = ({ isOpen, closeSidebar }) => {
     const isDesktopOrLaptop = useMediaQuery({ minWidth: 1224 });
 
     return (
-        <div
-            className={`bg-white h-screen p-4  w-64 z-20 transition-transform duration-300 ease-in-out
-                ${isOpen ? "transform translate-x-0" : "transform -translate-x-full"}
-                ${isDesktopOrLaptop ? "ml-15 mr-15" : ""} // 데스크탑 화면에서 여백 추가
-            `}
-        >
-            {/* 모바일에서만 보이는 닫기 버튼 */}
-            {!isDesktopOrLaptop && (
-                <button className="text-gray mb-4" onClick={closeSidebar}>
-                    ✖
-                </button>
-            )}
+        <div style={{ width: "100px" }} className="box">
             <ul className="text-gray">
                 <li className="py-2">
                     <a href="#">HOME</a>
                 </li>
                 <li className="py-2 group relative">
-                    <a href="#">PROLOGUE</a>
+                    <a href="/prologue">PROLOGUE</a>
                     <ul className="ml-4 hidden group-hover:block">
                         <li className="py-1">
-                            <a href="#">STORY</a>
+                            <a href="/story">STORY</a>
                         </li>
                         <li className="py-1">
-                            <a href="#">ARCHITECTURE</a>
+                            <a href="/architecture">ARCHITECTURE</a>
                         </li>
                         <li className="py-1">
-                            <a href="#">LOCATION</a>
+                            <a href="/location">LOCATION</a>
                         </li>
                     </ul>
                 </li>
