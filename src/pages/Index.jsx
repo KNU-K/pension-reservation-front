@@ -28,8 +28,8 @@ const Index = () => {
             {/* Carousel */}
             <Slider {...settings} className="h-full">
                 {slides.map((slide) => (
-                    <div key={slide.id} className="w-full h-full">
-                        <img src={slide.src} alt={slide.alt} className="w-full h-full object-cover" />
+                    <div key={slide.id} className="relative w-full h-screen overflow-hidden">
+                        <img src={slide.src} alt={slide.alt} className="absolute inset-0 w-full h-full object-cover" />
                     </div>
                 ))}
             </Slider>
