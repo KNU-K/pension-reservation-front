@@ -19,7 +19,7 @@ const Main = () => {
 
             {/* Main Content */}
             <Container maxWidth="lg" style={{ marginTop: "16px", flex: 1, display: "flex" }}>
-                <Grid style={!isMobile ? { marginTop: "290px" } : { marginTop: "30px" }} container spacing={3}>
+                <Grid style={!isMobile ? { marginTop: "220px" } : { marginTop: "30px" }} container spacing={3}>
                     {/* Sidebar */}
                     {!isMobile && (
                         <Grid item xs={12} sm={3} style={{ padding: "16px" }}>

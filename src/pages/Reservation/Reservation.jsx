@@ -7,8 +7,9 @@ import Header from "../../components/Header";
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
+import TermsAndConditions from "../../components/reservation/TermsAndConditions";
 
-const Architecture = () => {
+const Reservation = () => {
     // 화면 너비에 따라 `isMobile`을 true/false로 설정
     const isMobile = useMediaQuery("(max-width: 768px)");
     return (
@@ -29,7 +30,7 @@ const Architecture = () => {
                     {/* Content */}
                     <Grid item xs={12} sm={9} style={{ padding: "16px" }}>
                         <Box style={{ height: "100%" }}>
-                            <Details></Details>
+                            <TermsAndConditions></TermsAndConditions>
                         </Box>
                     </Grid>
                 </Grid>
@@ -38,4 +39,4 @@ const Architecture = () => {
     );
 };
 
-export default Architecture;
+export default Reservation;

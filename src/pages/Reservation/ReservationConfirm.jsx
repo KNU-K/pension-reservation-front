@@ -8,7 +8,7 @@ import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
 
-const Architecture = () => {
+const ReservationConfirm = () => {
     // 화면 너비에 따라 `isMobile`을 true/false로 설정
     const isMobile = useMediaQuery("(max-width: 768px)");
     return (
@@ -38,4 +38,4 @@ const Architecture = () => {
     );
 };
 
-export default Architecture;
+export default ReservationConfirm;

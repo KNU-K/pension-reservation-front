@@ -5,7 +5,7 @@ const Header = () => {
     const isDesktopOrLaptop = useMediaQuery({ minWidth: 1224 });
 
     return (
-        <header className={`fixed top-0 w-full h-80 bg-white items-center px-4 z-50 ${!isDesktopOrLaptop ? "hidden" : ""}`}>
+        <header className={`fixed top-0 w-full h-60 bg-white items-center px-4 z-50 ${!isDesktopOrLaptop ? "hidden" : ""}`}>
             <div className="flex items-center h-full">
                 {/* 로고 이미지 */}
                 <img

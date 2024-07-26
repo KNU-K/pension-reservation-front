@@ -39,7 +39,7 @@ const NavBar = () => {
                         </NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown title="RESERVATIONS" id="basic-nav-dropdown-reservations" className="text-sm">
-                        <NavDropdown.Item as={Link} to="#" className="text-gray-800 hover:bg-gray-200">
+                        <NavDropdown.Item as={Link} to="/reservation" className="text-gray-800 hover:bg-gray-200">
                             Reservation
                         </NavDropdown.Item>
                         <NavDropdown.Item as={Link} to="#" className="text-gray-800 hover:bg-gray-200">
