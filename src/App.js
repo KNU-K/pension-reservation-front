@@ -7,6 +7,7 @@ import Prologue from "./pages/Prologue/Prologue";
 import Story from "./pages/Prologue/Story";
 import Reservation from "./pages/Reservation/Reservation";
 import ReservationConfirm from "./pages/Reservation/ReservationConfirm";
+import ReservationCalendar from "./pages/Reservation/ReservationCalendar";
 
 const App = () => {
     return (
@@ -20,6 +21,7 @@ const App = () => {
                 <Route path="/prologue" element={<Prologue />} />
 
                 <Route path="/reservation" element={<Reservation />} />
+                <Route path="/reservation/calendar" element={<ReservationCalendar />} />
                 <Route path="/confirm-reservation" element={<ReservationConfirm />} />
             </Routes>
         </BrowserRouter>

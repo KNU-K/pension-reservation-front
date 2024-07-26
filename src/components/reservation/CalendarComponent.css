@@ -1,0 +1,40 @@
+/* FullCalendar Accessibility Overrides */
+
+/* Remove default background color from the calendar container */
+.fc {
+    background-color: transparent !important; /* Removes background color from container */
+}
+
+/* Remove background color and border from day cells */
+.fc-daygrid-day-frame {
+    background-color: transparent !important; /* Removes background color from day cells */
+    border: none !important; /* Removes border from day cells */
+}
+
+/* Remove background color from event elements */
+.fc-event {
+    background-color: transparent !important; /* Removes background color from events */
+    border: none !important; /* Removes border from events */
+}
+
+/* Remove background color from the day headers */
+.fc-daygrid-day-top {
+    background-color: transparent !important; /* Removes background color from day headers */
+}
+
+/* Ensure events have no extra margin or padding */
+.fc-event-content {
+    margin: 0 !important; /* Remove extra margins */
+    padding: 0 !important; /* Remove extra padding */
+}
+
+.fc-event,
+.fc-event-start,
+.fc-event-end,
+.fc-event-today,
+.fc-daygrid-event,
+.fc-daygrid-block-event,
+.fc-h-event,
+.text-red-700 {
+    background-color: transparent !important;
+}
